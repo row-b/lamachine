@@ -9,8 +9,9 @@ usage()
 Usage: ./start.sh [COMMAND]
 
 COMMAND:
-    up                             Brings the docker containers up
-    down                           Brings the docker containers down"
+    build                          Builds the container(s)
+    up                             Brings the docker container(s) up
+    down                           Brings the docker container(s) down"
     exit
 }
 
