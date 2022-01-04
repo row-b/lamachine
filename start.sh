@@ -11,7 +11,8 @@ Usage: ./start.sh [COMMAND]
 COMMAND:
     build                          Builds the container(s)
     up                             Brings the docker container(s) up
-    down                           Brings the docker container(s) down"
+    down                           Brings the docker container(s) down
+    shell                          Dive into the container"
     exit
 }
 
