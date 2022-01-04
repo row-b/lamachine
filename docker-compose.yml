@@ -1,0 +1,13 @@
+version: '3.6'
+services:
+  # La machine
+  la_machine:
+    build:
+      context: ./
+      dockerfile: dockerfile
+    container_name: lamachine
+    ports:
+      - "8080:80"
+    tty: true
+    volumes:
+      - ./data:/data
